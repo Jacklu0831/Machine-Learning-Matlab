@@ -1,0 +1,5 @@
+GitHub answer key
+https://github.com/mridulnagpal/Andrew-Ng-ML-Course-Assignments/blob/master/machine-learning-ex8/ex8/estimateGaussian.m
+
+Note
+http://www.holehouse.org/mlclass/17_Large_Scale_Machine_Learning.html

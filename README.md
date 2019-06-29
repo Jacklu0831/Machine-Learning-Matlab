@@ -1,4 +1,4 @@
-# Machine Learning in Octave
+# Machine Learning in Octave/Matlab
 
 A variety of ML algorithms from gradient descent to neural networks coded in Octave/Matlab with no fancy libraries. This allowed me to have a solid understanding of the mathematics behind those high level python libraries. My next step in breaking into AI is in the Deep-Learning-Projects repository.  
 

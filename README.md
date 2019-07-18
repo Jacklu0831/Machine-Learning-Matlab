@@ -27,4 +27,4 @@ A variety of essential ML algorithms from gradient descent to neural networks co
     
 # Acknowledgement
 
-As declared in the description, this collection of projects is mentored by Stanford Professor Andrew Ng through the Coursera Machine Learning . Thanks to his guidance, I got a solid understanding of the underlying math that makes ML algorithms work.
+This collection of projects is mentored by Stanford Professor Andrew Ng through the Coursera Machine Learning . Thanks to his guidance, I got a solid understanding of the underlying math that makes ML algorithms work.

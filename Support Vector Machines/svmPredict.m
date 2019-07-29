@@ -26,8 +26,8 @@ if strcmp(func2str(model.kernelFunction), 'linearKernel')
 elseif strfind(func2str(model.kernelFunction), 'gaussianKernel')
     % Vectorized RBF Kernel
     % This is equivalent to computing the kernel on every pair of examples
-    X1 = sum(X.^2, 2);
-    X2 = sum(model.X.^2, 2)';
+    X1 = sum(X .^ 2, 2);
+    X2 = sum(model.X .^ 2, 2)';
     K = bsxfun(@plus, X1, bsxfun(@plus, X2, - 2 * X * model.X'));
     K = model.kernelFunction(1, 0) .^ K;
     K = bsxfun(@times, model.y', K);

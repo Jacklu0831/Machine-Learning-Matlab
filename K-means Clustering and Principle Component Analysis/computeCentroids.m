@@ -28,12 +28,8 @@ centroids = zeros(K, n);
 
 for i = 1:K
 	position = find(idx == i); % index of all points that are in a single cluster
-	centroids(i,:) = (1/(length(position))) * sum(X(position,:));
+	centroids(i,:) = (1 / (length(position))) * sum(X(position,:));
 end
-
-
-
-
 
 % =============================================================
 

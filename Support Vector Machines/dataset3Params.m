@@ -29,14 +29,14 @@ for i=1:length(vec)
 	for j=1:length(vec)
 		C_test = vec(i);
 		sigma_test = vec(j);
-		model = svmTrain(X,y,C_test,@(x1,x2) gaussianKernel(x1,x2,sigma_test));
-		predictions = svmPredict(model,Xval);
-		error(i,j) = mean(double(predictions~=yval));
+		model = svmTrain(X,y,C_test,@(x1,x2) gaussianKernel(x1, x2, sigma_test));
+		predictions = svmPredict(model, Xval);
+		error(i,j) = mean(double(predictions ~= yval));
 	end
 end
 
-[val,min_X] = min(min(error,[],2));
-[val,min_Y] = min(min(error,[],1));
+[val,min_X] = min(min(error, [], 2));
+[val,min_Y] = min(min(error, [], 1));
 
 C = vec(min_X);
 sigma = vec(min_Y);

@@ -1,6 +1,6 @@
 # Machine Learning in Octave/Matlab
 
-A variety of essential ML algorithms from gradient descent to neural networks coded in Octave/Matlab with no fancy libraries. Everything including backpropagation of shallow neural network is coded with fundamental operations (+-*/) in Octave. This brought me into the ML rabbit hole and allowed me to gain a solid understanding of the mathematics behind various machine learning algorithms. 
+A variety of essential ML algorithms from gradient descent to neural networks coded in Octave/Matlab with no fancy libraries. This brought me into the ML rabbit hole and allowed me to gain a solid understanding of the mathematics behind various machine learning algorithms. 
 
 # Topics
 
